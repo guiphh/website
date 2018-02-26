@@ -6,12 +6,8 @@ class Links extends React.Component {
   render() {
     const author = this.props.data;
     const links = {
-      telegram: author.telegram,
       twitter: author.twitter,
-      github: author.github,
-      vk: author.vk,
-      rss: author.rss,
-      email: author.email
+      github: author.github
     };
 
     return (
@@ -25,20 +21,6 @@ class Links extends React.Component {
           <li className="links__list-item">
             <a href={`https://www.github.com/${links.github}`} target="_blank" >
               <i className="icon-github" />
-            </a>
-          </li>
-        </ul>
-        <ul className="links__list">
-          <li className="links__list-item">
-            <a href={`mailto:${links.email}`}>
-              <i className="icon-mail" />
-            </a>
-          </li>
-        </ul>
-        <ul className="links__list">
-          <li className="links__list-item">
-            <a href={links.rss}>
-              <i className="icon-rss" />
             </a>
           </li>
         </ul>

@@ -21,10 +21,8 @@ module.exports = {
     ],
     author: {
       name: 'Guillaume',
-      email: 'guiphh@gmail.com',
       twitter: 'GTrompette',
-      github: 'guiphh',
-      rss: '#'
+      github: 'guiphh'
     }
   },
   plugins: [
