@@ -21,12 +21,10 @@ module.exports = {
     ],
     author: {
       name: 'Guillaume',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#'
+      email: 'guiphh@gmail.com',
+      twitter: 'GTrompette',
+      github: 'guiphh',
+      rss: '#'
     }
   },
   plugins: [
