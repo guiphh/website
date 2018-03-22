@@ -6,7 +6,7 @@ path: "/contact"
 
 Contact me.
 
-<form name="contact" method="POST" netlify>
+<form name="contact"  action="/thanks.html" netlify>
   <p>
     <label>Your Name: <input type="text" name="name"></label>   
   </p>
