@@ -6,7 +6,10 @@ path: "/contact"
 
 Contact me.
 
-<form name="contact"  action="/thanks.html" netlify>
+<form name="contact"  
+action="/thanks.html" 
+data-netlify="true"
+data-netlify-honeypot="bot-field">
   <p>
     <label>Your Name: <input type="text" name="name"></label>   
   </p>
